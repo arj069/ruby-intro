@@ -15,3 +15,10 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+my_list = ["milk", "eggs", "bacon"]
+friend_list = ["beer", "cookies", "apples"]
+combined_list = my_list + friend_list
+combined_list = combined_list.sort
+combined_list = combined_list.map { |word| "Buy #{word}"}
+puts combined_list
