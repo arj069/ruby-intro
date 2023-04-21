@@ -15,3 +15,9 @@
 # rand(1..6)
 # Log output to the screen with puts:
 # puts "Hello, world"
+
+die1 = rand(1..6)
+die2 = rand(1..6)
+puts "First roll is #{die1}"
+puts "Second roll is #{die2}"
+puts "The total is #{die1+die2}"
